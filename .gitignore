@@ -1,0 +1,25 @@
+.terraform/
+*terraform.tfvars
+*terraform.tfstate*
+tfplan
+*.raw
+*.qcow2
+*.gz
+talosconfig.yml
+kubeconfig.yml
+providers.tf
+.kitchen/
+.kitchen.local.yml
+
+.pluralith
+
+.vscode
+
+disable
+test
+
+# secret data
+manifests
+talosconfig
+kubeconfig
+output/*
